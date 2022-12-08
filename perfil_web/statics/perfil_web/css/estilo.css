@@ -1,0 +1,913 @@
+body{
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(212,768,355)'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23676748'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='479' height='399.2' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.16'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+
+.indexBody{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+    "indexNav    indexNav   indexNav   indexNav"
+    "indexHeader indexHeader indexHeader  indexHeader"
+    "cuerpocontenido cuerpocontenido cuerpocontenido cuerpocontenido"
+    "indexFooter indexFooter indexFooter indexFooter"
+    ;
+}
+
+.indexNav{
+    grid-area: indexNav;
+}
+
+.indexHeader{
+    grid-area: indexHeader;
+}
+
+.cuerpoContenido{
+    grid-area: cuerpocontenido;
+}
+
+.indexFooter{
+    grid-area: indexFooter;
+}
+
+
+/* ----------      BARRA NAVEGACION      ---------- */
+
+nav{
+    background-color: rgba(29, 28, 28, 0.5);
+    height: auto;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px;
+}
+
+nav .nav__body{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+nav button{
+    background-color: rgb(189, 183, 183);
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    border: 5px solid rgba(100, 100, 100, 0.2)
+}
+
+nav .anchor{
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    color: black;
+    text-decoration: none;
+}
+
+/* ----------      INDEX      ---------- */
+
+.indexHeader{
+    display: flex;
+    justify-content: space-around;
+}
+
+.indexHeader .portadaShadow{
+    box-shadow: 0 0 50px 0 rgba(5, 5, 5, 1)
+}
+
+
+.cuerpoContenido{
+    border: 1px solid black;
+    background-color:rgba(22, 22, 22, 0.5);
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.cuerpoContenido h1{
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.cuerpoContenido h1,
+.cuerpoContenido p{
+    font-size: 2.5em;
+}
+
+
+/*      ----------     PRESENTACIONES     ---------      */
+
+.cuerpo__presentaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.cuerpo__presentaciones section div .pres__titulo{
+    background-color: rgba(48, 48, 48, 0.5);
+    border: 1px solid black;
+}
+
+.cuerpo__presentaciones section div .pres__subtitulo{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    text-decoration-style: double;
+}
+
+.cuerpo__presentaciones section div iframe{
+    box-shadow: 50px 50px 50px 0 rgba(5, 5, 5, 0.7);
+}
+
+
+/*      ----------      FOOTER      ----------      */
+
+.indexFooter{
+    border: 3px solid black;
+    background-color: rgba(83, 83, 83);
+    margin: 10px;
+    height: 100px;
+
+    display: grid;
+    justify-items: center;
+}
+
+
+.indexFooter .footer__social{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.indexFooter .footer__social:hover{
+    border-radius: 200%;
+    background-color: white;
+}
+
+.indexFooter .derechos{
+    color: white;
+    display: grid;
+    grid-column: span 3;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+/*   ----------    MEDIAS QUERIES    ----------   */
+
+
+
+
+
+
+
+
+
+
+
+
+            /* MEDIA QUERIE MOBILE*/
+
+
+
+
+@media only screen and (max-width: 768px){
+/* ----------      BARRA NAVEGACION      ---------- */
+
+.indexBody{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "indexNav    indexNav"
+    "cuerpocontenido cuerpocontenido"
+    "indexHeader indexHeader"
+    "indexFooter indexFooter"
+    ;
+}
+
+.indexNav{
+    grid-area: indexNav;
+}
+
+.indexHeader{
+    grid-area: indexHeader;
+}
+
+.cuerpoContenido{
+    grid-area: cuerpocontenido;
+}
+
+.indexFooter{
+    grid-area: indexFooter;
+}
+
+
+
+nav{
+    background-color: rgba(29, 28, 28, 0.5);
+    height: auto;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px;;
+}
+
+nav .nav__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 10px
+;
+}
+
+nav button{
+    background-color: rgb(189, 183, 183);
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    border: 5px solid rgba(100, 100, 100, 0.2)
+}
+
+nav .anchor{
+    font-size: 20px;
+    padding: 20px 70px 20px 40px;
+    color: black;
+    text-decoration: none;
+}
+
+nav .btn1{
+    background-color: white;
+    border-color: rgba(100, 100, 100, 0.1);
+}
+
+
+/* ----------      INDEX      ---------- */
+
+.indexHeader{
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.indexHeader .portadaShadow{
+    width: fit-content;
+    max-width: 100%;
+    box-shadow: 0 0 50px 0 rgba(5, 5, 5, 1)
+}
+
+.cuerpoContenido{
+    border: 1px solid black;
+    background-color:rgba(22, 22, 22, 0.5);
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+/*      ---------     SOBRE MI     ----------      */
+
+.elmain .section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elmain .section .autobio__titulo,
+.elmain .section .autores,
+.elmain .section .editorial{
+    width: 100%;
+}
+
+.section .autores .lista,
+.section .editorial .lista{
+    list-style: none;
+}
+
+.section .autores .titulos,
+.section .editorial .titulos{
+    text-decoration: underline;
+}
+
+.section .autores .lista .author,
+.section .editorial .lista .author{
+    color: white;
+    text-decoration: none;
+}
+
+/*      ----------     PUBLICACIONES     ---------- */
+
+.principal .section,
+.pcincipal .section .carritocompras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section{
+    background-color: rgba(228, 228, 228, 0.5);
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* -----lineas de "PUBLICACIONES" */
+.section .principal__titulo,
+.section .libros__texto,
+/* -----lineas de "SOBRE MI" */
+.section .autobio__titulo,
+.section .autobio__texto,
+.section .autores,
+.section .editorial{
+    border: 1px solid black;
+    margin: 10px;  
+}
+
+.indexHeader .portadaShadow,
+.principal .section .libros__img img,
+.elmain .section .marcos__foto img{
+    width: 350px;
+    max-width: 100%;
+    
+}
+
+.principal .section .principal__titulo,
+/* -----lineas de "SOBRE MI" */
+.section .autobio__titulo,
+.section .autores,
+.section .editorial{
+    background-color: rgba(48, 48, 48, 0.5);
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+
+.libros__texto,
+.autobio__texto{
+    background-color: rgba(252, 239, 239, 0.5);
+    text-align: center;
+    font-weight: 550;
+    font-size: 46px;
+    padding: 10px;
+}
+
+.autobio__texto{
+    font-size: 50px;
+}
+
+.section .carritocompras{
+    border-radius: 0 50% 0 50%;
+    background-color: rgba(228, 44, 44, 0.3);
+    
+}
+
+.section .texto--mael{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*      ---------     CONTACTO     ----------      */
+
+main .cuerpo__contacto{
+    background-color: rgba(48, 48, 48, 0.5);
+    border: 2px solid black;
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main .cuerpo__contacto .cuerpo__titulo{
+    background-color: rgba(48, 48, 48, 0.5);
+    color: white;
+    text-align: center;
+}
+
+main .cuerpo__contacto .formulario{
+    max-width: 600px;
+    min-width: 300px;
+    padding: 10%;
+
+    display: grid;
+}
+
+main .cuerpo__contacto .formulario .nombre,
+main .cuerpo__contacto .formulario .apellido,
+main .cuerpo__contacto .formulario .email,
+main .cuerpo__contacto .formulario .msj{
+    color: white;
+    background-color: rgba(48, 48, 48, 0.5);
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+
+main .cuerpo__contacto .formulario .nombre__area,
+main .cuerpo__contacto .formulario .apellido__area,
+main .cuerpo__contacto .formulario .email__area,
+main .cuerpo__contacto .formulario .msj__area,
+main .cuerpo__contacto .formulario .btnenviar,
+main .cuerpo__contacto .formulario .btnreset{
+    font-size: 20px;
+}
+
+/*      ----------      FOOTER      ----------      */
+
+footer{
+    border: 3px solid black;
+    background-color: rgba(83, 83, 83);
+    margin: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+
+.footer .footer__social{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .footer__social:hover{
+    border-radius: 200%;
+    background-color: white;
+}
+
+.footer .derechos{
+    color: white;
+    display: grid;
+    grid-column: span 3;
+    padding-top: 20px;
+}
+}
+
+
+
+              /* MEDIA QUERIE TABLET */
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+    
+    .indexBody{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+        "indexNav    indexNav"
+        "cuerpocontenido cuerpocontenido"
+        "indexHeader indexHeader"
+        "indexFooter indexFooter"
+        ;
+    }
+    
+    .indexNav{
+        grid-area: indexNav;
+    }
+    
+    .indexHeader{
+        grid-area: indexHeader;
+    }
+    
+    .cuerpoContenido{
+        grid-area: cuerpocontenido;
+    }
+    
+    .indexFooter{
+        grid-area: indexFooter;
+    }
+    
+    
+    
+    nav{
+        background-color: rgba(29, 28, 28, 0.5);
+        height: auto;
+        border: 1px solid white;
+        padding: 5px;
+        margin: 10px;;
+    }
+    
+    nav .nav__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        gap: 10px        ;
+    }
+    
+    nav button{
+        background-color: rgb(189, 183, 183);
+        text-transform: uppercase;
+        text-decoration: none;
+        justify-content: center;
+        border-radius: 10px;
+        width: 250px;
+        height: 50px;
+        border: 5px solid rgba(100, 100, 100, 0.2)
+    }
+    
+    nav .anchor{
+        font-size: 20px;
+        padding: 20px 70px 20px 40px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    nav .btn1{
+        background-color: white;
+        border-color: rgba(100, 100, 100, 0.1);
+    }
+    
+    
+    /* ----------      INDEX      ---------- */
+    
+    .indexHeader{
+        display: flex;
+        width: fit-content;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .indexHeader .portadaShadow{
+        width: fit-content;
+        max-width: 100%;
+        box-shadow: 0 0 50px 0 rgba(5, 5, 5, 1)
+    }
+    
+    .cuerpoContenido{
+        border: 1px solid black;
+        background-color:rgba(22, 22, 22, 0.5);
+        color: white;
+        text-align: center;
+        margin: 20px;
+    }
+
+
+    /*      ----------     SOBRE MI     ----------      */
+
+    .elmain .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .elmain .section .autobio__titulo,
+    .elmain .section .autores,
+    .elmain .section .editorial{
+        width: 100%;
+    }
+    
+    .section .autores .lista li,
+    .section .editorial .lista li{
+        list-style: none;
+    }
+    
+    .section .autores .titulos,
+    .section .editorial .titulos{
+        text-decoration: underline;
+    }
+    
+    .section .autores .lista .author,
+    .section .editorial .lista .author{
+        color: white;
+        text-decoration: none;
+    }
+
+/*      ----------     PUBLICACIONES     ---------- */
+
+.principal .section,
+.pcincipal .section .carritocompras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section{
+    background-color: rgba(228, 228, 228, 0.5);
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* -----lineas de "PUBLICACIONES" */
+.section .principal__titulo,
+.section .libros__img img,
+.section .libros__texto,
+/* -----lineas de "SOBRE MI" */
+.section .autobio__img,
+.section .autobio__titulo,
+.section .autobio__texto,
+.section .autores,
+.section .editorial{
+    border: 1px solid black;
+    margin: 10px;  
+}
+
+.principal .section .principal__titulo,
+/* -----lineas de "SOBRE MI" */
+.section .autobio__titulo,
+.section .autores,
+.section .editorial{
+    background-color: rgba(48, 48, 48, 0.5);
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+
+.libros__texto,
+.autobio__texto{
+    background-color: rgba(252, 239, 239, 0.5);
+    text-align: center;
+    font-weight: 550;
+    font-size: 46px;
+    padding: 10px;
+}
+
+.autobio__texto{
+    font-size: 50px;
+}
+
+.section .carritocompras{
+    border-radius: 0 50% 0 50%;
+    background-color: rgba(228, 44, 44, 0.3);
+    
+}
+
+.section .texto--mael{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*      ----------     CONTACTO     ----------      */
+
+main .cuerpo__contacto{
+    background-color: rgba(48, 48, 48, 0.5);
+    border: 2px solid black;
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main .cuerpo__contacto .cuerpo__titulo{
+    background-color: rgba(48, 48, 48, 0.5);
+    color: white;
+    text-align: center;
+}
+
+main .cuerpo__contacto .formulario{
+    max-width: 1000px;
+    min-width: 600px;
+    padding: 10%;
+
+    display: grid;
+}
+
+main .cuerpo__contacto .formulario .nombre,
+main .cuerpo__contacto .formulario .apellido,
+main .cuerpo__contacto .formulario .email,
+main .cuerpo__contacto .formulario .msj{
+    color: white;
+    background-color: rgba(48, 48, 48, 0.5);
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+
+main .cuerpo__contacto .formulario .nombre__area,
+main .cuerpo__contacto .formulario .apellido__area,
+main .cuerpo__contacto .formulario .email__area,
+main .cuerpo__contacto .formulario .msj__area,
+main .cuerpo__contacto .formulario .btnenviar,
+main .cuerpo__contacto .formulario .btnreset{
+    font-size: 20px;
+}
+
+
+}
+
+
+            /* MEDIA QUERIE DESKTOP */
+
+
+
+@media only screen and (min-width: 1024px){
+
+    nav{
+        position: sticky;
+        top: 1px;   
+        z-index: 1;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10%;
+    }
+    nav .btn1{
+        background-color: white;
+        border-color: rgba(100, 100, 100, 0.1);
+    }
+    
+    nav .nav__inicio{
+        padding-left: 30px;
+    }
+    
+    nav .btn:hover{
+        background-color: white;
+    }
+
+    header .portadaLight:hover{
+        box-shadow: 0 0 50px 0 rgb(255, 255, 255)
+    }
+
+    /*      ----------     SOBRE MI     ----------      */
+
+    .section .marcos__foto .autobio__img{
+        border: 3px white;
+        box-shadow: 0 0 50px 0 rgba(5, 5, 5, 1)
+    }
+    
+    .section .autores .lista,
+    .section .editorial .lista{
+        list-style: none;
+    }
+    
+    .section .autores .titulos,
+    .section .editorial .titulos{
+        text-decoration: underline;
+    }
+    
+    .section .autores .lista .author,
+    .section .editorial .lista .author{
+        color: white;
+        text-decoration: none;
+    }
+
+
+    /*      ----------     PUBLICACIONES     ----------    */
+
+    .section{
+        background-color: rgba(228, 228, 228, 0.5);
+        border: 1px solid black;
+        padding: 5px;
+        
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(7, 1fr);
+    }
+    
+    /* -----lineas de "PUBLICACIONES" */
+    .section .principal__titulo,
+    .section .libros__img img,
+    .section .libros__texto,
+    /* -----lineas de "SOBRE MI" */
+    .section .autobio__img,
+    .section .autobio__titulo,
+    .section .autobio__texto,
+    .section .autores,
+    .section .editorial{
+        border: 1px solid black;
+        margin: 10px;  
+    }
+    
+    .principal .section .principal__titulo,
+    /* -----lineas de "SOBRE MI" */
+    .section .autobio__titulo,
+    .section .autores,
+    .section .editorial{
+        background-color: rgba(48, 48, 48, 0.5);
+        color: white;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        grid-column: span 7;
+    }
+    
+    .pcincipal .section .libros__img,
+    .principal .section .libros__texto,
+    /* -----linea de "SOBRE MI" */
+    .section .autobio__img,
+    .section .autobio__texto{
+        grid-column: span 6;
+    }
+    
+    .libros__texto,
+    .autobio__texto{
+        background-color: rgba(252, 239, 239, 0.5);
+        text-align: center;
+        font-weight: 550;
+        font-size: 46px;
+        padding: 10px;
+    }
+    
+    .autobio__texto{
+        font-size: 50px;
+    }
+    
+    .section .carritocompras{
+        position: relative;
+        left: 600px;
+        cursor: pointer;
+    }
+    
+    .section .shopp:hover{
+        border-radius: 0 50% 0 50%;
+        background-color: rgba(228, 44, 44, 0.3);
+        
+    }
+    
+    .section .texto--mael{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /*      ---------     CONTACTO     --------- */
+
+    main .cuerpo__contacto{
+        background-color: rgba(48, 48, 48, 0.5);
+        border: 2px solid black;
+        font-size: 30px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main .cuerpo__contacto .cuerpo__titulo{
+        background-color: rgba(48, 48, 48, 0.5);
+        color: white;
+        text-align: center;
+    }
+    
+    main .cuerpo__contacto .formulario{
+           
+        display: flex;
+        flex-direction: column;
+        min-width: 600px;
+        max-width: 1600px;
+        
+    }
+    
+    main .cuerpo__contacto .formulario .nombre,
+    main .cuerpo__contacto .formulario .apellido,
+    main .cuerpo__contacto .formulario .email,
+    main .cuerpo__contacto .formulario .msj{
+        color: white;
+        background-color: rgba(48, 48, 48, 0.5);
+        text-align: center;
+        font-size: 40px;
+        width: 100%;
+    }
+
+    main .cuerpo__contacto .formulario .nombre__area,
+    main .cuerpo__contacto .formulario .apellido__area,
+    main .cuerpo__contacto .formulario .email__area,
+    main .cuerpo__contacto .formulario .msj__area,
+    main .cuerpo__contacto .formulario .btnenviar,
+    main .cuerpo__contacto .formulario .btnreset{
+    font-size: 20px;
+    }
+    
+    main .cuerpo__contacto form input{
+        padding: 10px;
+    }
+    
+
+
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+
+    <title>Contacto</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Special+Elite&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilo/estilo.css">
+</head>
+<body>
+
+    <!-- apertura barra nav -->
+    <nav class="body__nav">
+        <!-- apertura de lista  -->
+
+        <ul class="nav__body">
+            <li><button class="btn nav__inicio"><a class="anchor" href="../index.html">Inicio</a></button></li>
+            <li><button class="btn"><a class="anchor" href="./publicaciones.html">Publicaciones</a></button></li>
+            <li><button class="btn nav__inicio"><a class="anchor" href="./sobremi.html">Sobre mi</a></button></li>
+            <li><button class="btn"><a class="anchor" href="./presentaciones.html">Presentaciones</a></button></li>
+            <li><button class="btn btn1 nav__inicio"><a class="anchor" href="#">Contacto</a></button></li>
+        </ul>
+
+        <!-- cierre lsita -->
+    </nav>
+    <!-- cierre barra nav -->
+
+    <main>
+        <div class="cuerpo__contacto">
+            <h2 class="cuerpo__titulo">
+                ¡Ponete en contacto conmigo!
+            </h2>        
+            <!-- apertura formulario -->
+            <form class="formulario" action="#">
+
+                <label class="nombre" for="nombre">Nombre</label>
+                <input class="nombre__area" type="text" id="nombre" name="nombre" placeholder="John">
+                <label class="apellido" for="apellido">Apellido</label>
+                <input class="apellido__area" type="text" id="apellido" name="apellido" placeholder="Doe">
+                <label class="email" for="email">E-mail</label>
+                <input class="email__area" type="email" id="email" name="email" placeholder="nombre@ejemplo.com">
+                <label class="msj" for="mensaje">Mensaje</label>
+                <textarea class="msj__area" rows="10" id="mensaje" cols="40" placeholder="Ingrese su comentario en esta area..."></textarea>
+                <input class="btnenviar" type="submit" value="Enviar">
+                <input class="btnreset" type="reset" value="Reset">
+
+            </form>
+            <!-- cierre formulario -->
+        </div>
+    </main>
+
+    <!-- inicio footer -->
+    <footer class="indexFooter">
+        <div class="footer__social ft--radius">
+            <a target="_blank" href="https://www.instagram.com/pasaje_vespertino/">
+                <img src="../assets/instagram_logo2-1.png" alt="Instagram" width="50">
+            </a>
+            
+        </div>
+        <div class="footer__social ft--radius">
+            <a target="_blank" href="https://www.facebook.com/alsophocus13">
+            <img src="../assets/facbook_logo2-1.png" alt="Facebook" width="50">
+        </a>
+        </div>
+        <div class="footer__social logo__twitter">
+            <a target="_blank" href="https://twitter.com/elmetapsicotico">
+            <img src="../assets/twitter_logo2-1.png" alt="Logo Twitter" width="50">
+        </a>
+        </div>
+        <div class="derechos">
+            ® Diseñado por Facundo Alcorta
+        </div>
+    </footer>
+
+    <!-- cierre footer -->
+
+</body>
+</html>
